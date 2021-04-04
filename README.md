@@ -1,4 +1,9 @@
 # Actions-OpenWrt
+#在上面本地编译时，当完成“配置完成后光标移动到 Save ，回车保存。”后，会在源码根目录生成一个 .config 文件，此时运行下面命令来提取配置差异，并保存在 diff.config 文件中备用：
+
+#make defconfig
+#./scripts/diffconfig.sh > diff.config   
+# 将差异保存在 diff.config 文件中
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
